@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+html{
+    font: 62.5%;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    padding: 0px 0px;
+    /* background-color:bisque; */
+}
+
+.container{
+    max-width: 1200px;
+    height:150px;
+    margin: 0px auto;
+    padding: 0 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+.section-navbar{
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+/* .section-navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 0;
+} */
+
+.navbar-brand{
+    background-color: pink;  
+    width: 120px;
+    height:120px;
+} 
+
+.navbar-brand img{
+    max-width: 100%;
+    height:auto;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar ul li{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.main{
+    height:520px;
+    background-color: peru;
+
+}
+
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/***** Header Css Start ****/
+
+/* header{
+    padding: 15px 0px;
+    background-color: #000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+
+/* .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-logo{
+    width: 200px;
+    height: 100px;
+}
+.company-logo img{
+    max-width: 100%;
+    height: auto;
+}
+.main-menu ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li a{
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/***** Banner Css Start ****/
+/* .banner-section{
+    background-image: url("https://jaiswalevents.in/wp-content/uploads/2025/02/party-M8J3WXM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h1{
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+} */
